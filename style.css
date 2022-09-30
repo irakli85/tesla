@@ -32,3 +32,66 @@ hr{
     height: 1.5px;
     background: #F3F3F3;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+main h1{
+    font-weight: 700;
+    font-size: 2.6rem;
+    line-height: 130%;
+    text-align: center;
+    color: #151411;
+    width: 28rem;
+}
+
+main p{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 180%;
+    text-align: center;
+    color: #AFADB5;
+    width: 33rem;
+    margin-top: 2rem;
+}
+
+main img{
+    margin-top: 4.2rem;
+}
+
+.section-one{
+    width: 87%;
+    margin: 0  auto;
+}
+
+.sec-one span{
+    display: block;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 130%;
+    color: #FFB23F;
+    margin-top: 6.7rem;
+}
+
+.sec-one h2{
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 130%;
+    color: #151411;
+    margin-top: 8px;
+    max-width: 24.8rem;
+}
+
+.sec-one p{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 180%;
+    color: #AFADB5;
+    margin-top: 1.6rem;
+    max-width: 32.7rem;
+}
