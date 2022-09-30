@@ -8,6 +8,10 @@
     font-size: 62.5%;
 }
 
+a{
+    text-decoration: none;
+}
+
 body{
     width: 100%;
     height: auto;
@@ -150,4 +154,42 @@ footer p{
     line-height: 180%;
     color: #AFADB5;
     margin-bottom: 2.2rem;
+}
+
+@media screen and (min-width: 1440px) {
+    
+    .menu{
+        display: none;
+    }
+
+    .bag, .user{
+        display: inline-block;
+    }
+
+    header{
+        width: 87%;
+        margin: 0  auto;
+    }
+
+    nav{
+        display: flex;
+        gap: 6rem;        
+    }
+
+    nav a{
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 180%;
+        color: #151411;
+    }
+
+    .header-line{
+        margin-top: 0;
+    }
+
+    .user{
+        margin-left: 3.2rem;
+    }
+
+    
 }
