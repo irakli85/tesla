@@ -64,8 +64,12 @@ main p{
     margin-top: 2rem;
 }
 
-main img{
+.tesla-small{
     margin-top: 4.2rem;
+}
+
+.tesla-big{
+    display: none;
 }
 
 .section-one{
@@ -189,6 +193,22 @@ footer p{
 
     .user{
         margin-left: 3.2rem;
+    }
+
+    .sec-one-cards{
+        flex-direction: row;
+    }
+
+    .section-two{
+        flex-direction: row;
+    }
+
+    .tesla-small{
+        display: none;
+    }
+
+    .tesla-big{
+        display: block;
     }
 
     
