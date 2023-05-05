@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- ---------MENU SIDE BAR-------- -->
+
     <menu id="menu">
         <div class="menu-close" id="close">
           <img src="./src/close.svg" alt="close">
@@ -34,6 +37,9 @@
           <option value="Georgia">Georgia</option>
         </select>
       </menu>
+
+      <!-- ---------------HEADER----------- -->
+
     <header>
         <div>
             <img src="./src/logo.svg" alt="logo">
@@ -43,7 +49,16 @@
             <a href="#">Services</a>
             <a href="#">Article</a>
             <a href="#">About Us</a>
-            <a href="#">Models</a>
+            <div class="dropdown">
+                <button class="dropbtn">Models</button>
+                <div class="dropdown-content">
+                  <a href="#">Model 3</a>
+                  <a href="#">Model S</a>
+                  <a href="#">Model X</a>
+                  <a href="#">Model Y</a>
+                  <a href="#">Cybertruck</a>
+                </div>
+              </div>
         </nav>
 
         <div class="icons">
@@ -55,13 +70,13 @@
         </div>
     </header>
 
+    <!-- ----------------------MAIN----------------- -->
+
     <main>
         <div class="main-heading">
             <h1>Experience Tesla</h1>
             <p>Tesla designs and manufactures electric vehicles, battery energy storage from home to grid-scale, solar panels and solar roof tiles, and related products and services. Tesla is one of the world's most valuable companies and, as of 2023, is the world's most valuable automaker. In 2022, the company had the most worldwide sales of battery electric vehicles. Through its subsidiary Tesla Energy, the company develops and is a major installer of photovoltaic systems in the United States. </p>
-        </div>
-
-    
+        </div>    
 
         <div class="slider">
             <img class="active" src="./src/tesla1.jpg" alt="1">
@@ -77,14 +92,23 @@
         <div class="carousel"></div>
 
     </main>
+
+<!-- ---------------- SECTION  VIDEO-------- -->
+
     <section class="video">
         <video autoplay muted loop id="myVideo">
             <source src="./src/Homepage-Test_Drive-NA-Desktop.mp4" type="video/mp4">
         </video>
+        <div class="video-info">
+            <h2>Drive the Dream</h2>
+            <p>Schedule a Demo Drive Today</p>
+            <a href="#">Demo Drive</a>
+        </div>
     </section>
 
-    <footer>
-        
+<!-- ---------------------FOOTER-------------- -->
+
+    <footer>        
         <div class="footer-logo">
             <img src="./src/logo.svg" alt="logo">
         </div>
@@ -95,6 +119,9 @@
             <a href="#">Recalls</a>
         </div>
     </footer>
+
+ <!-- ------------------SCRIPTS-----------------    -->
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./main.js"></script>

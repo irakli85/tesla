@@ -50,8 +50,59 @@ nav a{
 }
 
 nav a:hover{
-    color: #AFADB5;
+    color: #AFADB5;    
 }
+
+.dropbtn {
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #151411;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dropbtn::before{
+    content: url('./src/arrowDown.png');
+    position: absolute;
+    left: 110%;
+    bottom: 0;  
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
 
 .icons{
     display: flex;
@@ -62,7 +113,7 @@ nav a:hover{
     cursor: pointer;
 }
 
-header button{
+#menuBtn button{
     background-color: rgba(0,0,0,.05);
     padding: 8px 25px;
     cursor: pointer;
@@ -217,7 +268,7 @@ footer{
 }
 
 menu{
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     width: 294px;
@@ -285,19 +336,63 @@ menu option{
 .video{
     width: auto;
     margin-top: 50px;
+    position: relative;
 }
 
-#myVideo {
-    /* position: fixed;
-    right: 0;
-    bottom: 0; */
+#myVideo {   
     width: 100%;
     height: 100%;
   }
 
+.video-info{
+    position: absolute;
+    top: 0;
+    left: calc(50% - 165px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-info h2{
+    margin-top: 50px;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.video-info p{
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.video-info a{
+    margin-top: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 50px;
+    color: white;
+    font-size: 14px;
+    font-weight: 900;    
+    border: solid 3px white;
+}
+
+.video-info a:hover{    
+    animation: pulse2 1s;
+    box-shadow: 0 0 0 2em transparent;
+  }
+  
+  @keyframes pulse2 {
+    0% { box-shadow: 0 0 0 0 white;
+      filter: hue-rotate(45deg); }
+  } 
+
 
   /* ------------------- */
-  .menu-nav-items a{    
+.menu-nav-items a{    
     position: relative;    
 }
 
@@ -319,3 +414,5 @@ menu option{
 /* ----------------------------- */
 
 
+
+  
