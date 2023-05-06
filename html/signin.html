@@ -4,34 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./src/tesla_logo_icon_169601.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../src/tesla_logo_icon_169601.png" type="image/x-icon">
     <title>Login | Tesla</title>
-    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="../css/signin.css">
 </head>
 <body>
     <main>
-        <div>
-            <img src="./src/logo.svg" alt="">
-        </div>
+        <a class="logo" href="../index.html">
+            <img src="../src/logo.svg" alt="logo">
+        </a>
         <form action="">
             <h2>Sign In</h2>
-            <div>
+            <div class="form-email">
                 <label for="email">Email Address</label>
-                <img src="./src/info.svg" alt="info">
+                <img src="../src/info.svg" alt="info">
             </div>
             <input type="email" name="email" id="email">
-            <button>Continue</button>
-            <div>
-                <a href="">Forgot email?</a>
+            <button class="form-continue">Continue</button>
+            <div class="form-forget">
+                <a href="#">Forgot email?</a>
                 <span>|</span>
-                <a href="">Forgot password?</a>
+                <a href="#">Forgot password?</a>
             </div>
-            <div>
+            <div class="form-or">
                 <div></div>
                 <span>OR</span>
                 <div></div>
             </div>
-            <button>Create Account</button>
+            <button class="form-create">Create Account</button>
         </form>
     </main>
     <footer>       

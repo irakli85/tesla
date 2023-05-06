@@ -2,24 +2,24 @@
     {
         "name" : "Model 3",
         "role" : "Sedan",
-        "memberImage" : "./src/model3.jpg"
+        "memberImage" : "../src/model3.jpg"
     },
 
     {
         "name" : "Model S",
         "role" : "Sedan",
-        "memberImage" : "./src/models.jpg"
+        "memberImage" : "../src/models.jpg"
     },
 
     {
         "name" : "Model X",
         "role" : "Sedan",
-        "memberImage" : "./src/modelx.jpg"
+        "memberImage" : "../src/modelx.jpg"
     },
     {
         "name" : "Model Y",
         "role" : "Sedan",
-        "memberImage" : "./src/modely.jpg"
+        "memberImage" : "../src/modely.jpg"
     }
 
 

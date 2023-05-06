@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('teamMembers.json')
+    fetch('../data/teamMembers.json')
     .then(response => response.json())
     .then(data => {
         const teamMemb = document.querySelector('.teammembers');
