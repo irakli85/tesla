@@ -192,6 +192,7 @@ main{
     opacity: 0;    
     border-radius: 20px;
     transition: opacity 1s;
+    object-fit: cover;
 }
 
 .slider img.active{
