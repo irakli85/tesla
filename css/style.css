@@ -429,8 +429,7 @@ menu option{
 @media screen and (max-width: 1300px){
     *{
         font-size: 40%;
-    }
-    
+    }    
 }
 
 @media screen and (max-width: 970px){
@@ -448,12 +447,11 @@ menu option{
     nav{
         display: none;
 
-    }
+    }    
 
-    
-
-    .item-class img{
+    .item-class p{
         display: none;
     }
     
 }
+
