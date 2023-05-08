@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', () => {
     fetch('../data/teamMembers.json')
     .then(response => response.json())
     .then(data => {
