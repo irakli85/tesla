@@ -437,5 +437,23 @@ menu option{
     *{
         font-size: 30%;
     }
+
+    .video{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 690px){
+    nav{
+        display: none;
+
+    }
+
+    
+
+    .item-class img{
+        display: none;
+    }
     
 }
