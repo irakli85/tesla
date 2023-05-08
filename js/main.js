@@ -27,7 +27,7 @@ $(document).ready(function(){
         {id: 2, 
          src: './src/Icon5.svg',
          htext: 'Fast and On Time',
-         ptext: 'Several government entities offer electric vehicle and solar incentives for customers, often taking the form of a rebate or a tax credit.' 
+         ptext: 'Several government entities offer electric vehicle and solar incentives for customers, often taking the form of a rebate.' 
         },
         {id: 3,  
          src: './src/Icon6.svg',
@@ -42,7 +42,7 @@ $(document).ready(function(){
         {id: 5, 
         src: './src/Icon5.svg',
         htext: 'Fast and On Time',
-        ptext: 'Several government entities offer electric vehicle and solar incentives for customers, often taking the form of a rebate or a tax credit.' 
+        ptext: 'Several government entities offer electric vehicle and solar incentives for customers, often taking the form of a rebate.' 
         },
         {id: 6,  
         src: './src/Icon6.svg',
