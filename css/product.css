@@ -50,7 +50,16 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 16px;
+    gap: 20px;
+}
+
+.gallery-imagezero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #F3F3F3;
+    border-radius: 10px;
 }
 
 .gallery-image{
@@ -58,6 +67,16 @@ h1{
     margin: 8px;
     max-width: 300px;
     max-height: 200px;
+    border-radius: 10px;
+}
+
+.gallery-imagezero p{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.gallery-imagezero p:hover{
+    color: #ed4e3b;
 }
 
 .close{
