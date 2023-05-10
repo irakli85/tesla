@@ -56,3 +56,22 @@ body{
     object-fit: cover;
     cursor: pointer;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 40px 20px;
+    margin-top: 50px;
+    border-top: solid 1px #F3F3F3;
+}
+
+.copyright{
+    display: flex;
+    gap: 30px;
+}
+
+.copyright a{
+    color: #5c5e62;
+    font-size: 12px;
+}

@@ -63,7 +63,7 @@ body{
 }
 
 .model-content{
-    background-color: aliceblue;
+    background-color: #ffffff;
     margin: 20% auto;
     padding: 30px;
     border: 1px solid black;
@@ -96,6 +96,7 @@ footer{
     align-items: flex-end;
     padding: 40px 20px;
     margin-top: 50px;
+    border-top: solid 1px #F3F3F3;
 }
 
 .copyright{
