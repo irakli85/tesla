@@ -72,7 +72,11 @@ nav a:hover{
     position: absolute;
     left: 110%;
     bottom: -2px;
+    transform: rotate(360deg);
+    transition: transform 0.5s ease-in-out;
   }
+
+  
 
   .dropdown {
     position: relative;
@@ -104,6 +108,10 @@ nav a:hover{
     display: block;
   }
   
+  .dropdown:hover .dropbtn::before{
+    transform: rotate(180deg);
+    transition: transform 0.5s ease-in-out;
+  }
 
 .icons{
     display: flex;
