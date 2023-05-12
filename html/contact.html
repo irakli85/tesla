@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla | Contact us</title>
+    <link rel="shortcut icon" href="../src/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/contact.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../src/logo.svg" alt="logo">
+        </a>
+    </header> 
+    
+    
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Contact Us</h3>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" placeholder="enter name"  id="name" class="form-control">
+            </div> 
+
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" placeholder="enter email"  id="email" class="form-control">
+             </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="enter message" rows="3"  class="form-control"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">S U B M I T</button>     
+        </form>
+
+        <div id="form-result" class="mt-3"></div>
+          </div>
+
+
+          <div class="col">
+            <h3>Our Adresses</h3>
+            <div class="adreses">
+                <div>
+                    <h5>Tesla Headquarters - Gigafactory Texas</h5>
+                    <p>1 Tesla Road</p>
+                    <p>Austin, TX 78725</p>
+                    <a href="#">Directions</a>    
+                </div>
+
+                <div>
+                    <h5>Tesla Engineering Headquarters</h5>
+                    <p>1501 Page Mill Road</p>
+                    <p>Palo Alto, CA 94304</p>
+                    <a href="#">Directions</a>    
+                </div>
+                
+                <div>
+                    <h5>Tesla Factory</h5>
+                    <p>45500 Fremont Boulevard Fremont, CA 94538</p>
+                    <a href="#">Directions</a>    
+                </div>            
+            </div>
+          </div>
+        </div>
+    </div>
+   
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16399.72025427826!2d-97.63431392493939!3d30.219491416090495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b7fc8c58e725%3A0x6fa2f52726e62dea!2sTesla%20Giga%20Texas!5e0!3m2!1ska!2sge!4v1683824363817!5m2!1ska!2sge" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer>       
+        <div class="copyright">
+            <a href="#">Tesla © 2023</a>
+            <a href="#">Privacy & Legal</a>
+            <a href="#">Locations</a>
+            <a href="#">Recalls</a>
+        </div>
+    </footer>
+   
+    
+
+    <script src="../js/contact.js"></script>
+</body>
+</html>
