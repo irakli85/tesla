@@ -42,13 +42,29 @@ form h2{
     gap: 10px;
 }
 
-.form-email label{
+label{
     font-size: 14px;
     color: #5c5e62;
 }
 
+.form-email{
+    position: relative;
+}
+
+.form-email-popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .form-email img{
     cursor: pointer;
+}
+
+.form-email-popup:hover .popup{
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.5s ease-in;
 }
 
 form input{
@@ -57,6 +73,31 @@ form input{
     background-color: #f4f4f4;
     border: none;
     border-radius: 4px;
+    padding: 10px;
+}
+
+.bi{
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.popup{
+    position: absolute;
+    background-color: white;
+    width: 416px;
+    height: 198px;
+    padding: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 999;
+    top: 35px;
+    left: -110px;
+    visibility: hidden;
+    opacity: 0;   
+}
+
+.popup-text2{
+    margin-top: 15px;
 }
 
 .form-continue{
