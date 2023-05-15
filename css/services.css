@@ -8,6 +8,8 @@
     list-style: none;
 }
 
+
+
 .card{
     background-image: url('../src/services/servicebg.png'), linear-gradient(#AFADB5, white, white);
     background-repeat: no-repeat;
@@ -33,6 +35,13 @@
 .dropdown-item,
 .nav-link{
     color: #5c5e62 !important;
+    /* margin-left: 10px; */
+    border-radius: 5px;
+}
+
+.nav-link:hover{
+    background: #F3F3F3;
+    transition: all 1s ease-in ;
 }
 
 .card-body{
@@ -97,7 +106,6 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* gap: 1px; */
 }
 
 .payment-items svg{
