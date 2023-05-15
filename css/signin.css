@@ -14,8 +14,8 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items:center;
+    justify-content: space-between;
+    align-items: center;
     position: relative;
 }
 
@@ -26,6 +26,7 @@ body{
 }
 
 form{
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -147,6 +148,9 @@ form input{
 }
 
 .form-create{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 10px;
     width: 362px;
     height: 40px;
@@ -165,11 +169,14 @@ form input{
 }
 
 footer{
+    width: 100%;
+    position: relative;
+    bottom: 0   ;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
     padding: 40px 20px;
     margin-top: 50px;
+    border-top: solid 1px #F3F3F3;
 }
 
 .copyright{

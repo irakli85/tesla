@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla | Contact us</title>
+    <link rel="shortcut icon" href="../src/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/registration.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <a class="logo" href="../index.html">
+            <img src="../src/logo.svg" alt="logo">
+        </a>
+    </header>   
+    
+    <div class="container">       
+        <div class="row justify-content-center">
+       <div class="col-md-6">
+            <h1 class="text-center mt-5">Create Account</h1>
+            <form action="" id="registrationForm">
+                    <div class="mb-3">
+                        <label for="username" class="form-lebel">First Name</label>
+                        <input type="text" class="form-control" id="username" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="username" class="form-lebel">Last Name</label>
+                        <input type="text" class="form-control" id="username" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="email" class="form-lebel">Email</label>
+                        <div class="input-group">
+                            <input type="email" required class="form-control" id="email">
+                            <span class="input-group-text" id="emailHint" aria-describedby="emailHint">@example.com</span>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="password" class="form-lebel">Password</label>
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="password" >
+                            <div class="input-group-text">
+                                <i class="bi bi-eye" id="showPassword"></i>
+                            </div>
+                        </div>                       
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="confirmation" class="form-lebel">Confirm Password</label>
+                        <input type="password" required class="form-control" id="confirmation">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Create Account</button>
+                
+            </form>
+        </div>
+        </div>
+   </div>
+
+   <footer>       
+        <div class="copyright">
+            <a href="#">Tesla © 2023</a>
+            <a href="#">Privacy & Legal</a>
+            <a href="#">Locations</a>
+            <a href="#">Recalls</a>
+        </div>
+    </footer>
+    
+
+    <script src="../js/registration.js"></script>
+    <script src="../js/signin.js"></script>
+
+</body>
+</html>
