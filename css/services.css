@@ -83,6 +83,7 @@ footer{
 }
 
 .payment{
+    width: 100%;
     margin-top: 150px;
     display: flex;
     flex-direction: column;
@@ -91,11 +92,24 @@ footer{
 }
 
 .payment-items{
-    margin-top: 50px;
+    width: 100%;
     display: flex;
-    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1px; */
 }
 
-.payment-items img{
+.payment-items svg{
     cursor: pointer;
 }
+
+#capital:hover .capital,
+#webmoney:hover,
+#payoneer:hover,
+#bitcoin:hover,
+#paypal:hover{
+    fill: #675da9;
+    filter: drop-shadow(1px 1px 1px #5c5e62);    
+}
+

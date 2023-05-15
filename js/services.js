@@ -14,4 +14,7 @@ $(document).ready(function(){
     $('.col-md-4').on('mouseleave', function(){
         $(this).find('.card').css('box-shadow', '')
     })
+
+ 
+        
 })
