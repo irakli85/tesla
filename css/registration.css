@@ -29,10 +29,12 @@ header{
     cursor: pointer;
 }
 
+#registrationForm{
+    margin-top: 50px;
+}
+
 footer{
     width: 100%;
-    /* position: relative; */
-    /* bottom: 0   ; */
     display: flex !important;
     justify-content: center;
     padding: 40px 20px;
