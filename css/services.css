@@ -110,6 +110,6 @@ footer{
 #bitcoin:hover,
 #paypal:hover{
     fill: #675da9;
-    filter: drop-shadow(1px 1px 1px #5c5e62);    
+    filter: drop-shadow(1px 1px 1px #675da9);    
 }
 
