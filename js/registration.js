@@ -17,5 +17,5 @@ document.getElementById('registrationForm').addEventListener('submit', function(
         password: password
     })
 
-    alert('Successfully Registered !');
+    alert('Congratulations, your account has been successfully created.');
 })
