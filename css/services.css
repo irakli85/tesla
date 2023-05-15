@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    text-decoration: none !important;
+    list-style: none;
+}
+
+.card{
+    background-image: url('../src/services/servicebg.png'), linear-gradient(#AFADB5, white, white);
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 400px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.card img{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+}
+
+
+.container h1{
+    text-align: center;
+}
+
+.dropdown-item,
+.nav-link{
+    color: #5c5e62 !important;
+}
+
+.card-body{
+    background-image:url('../src/services/servicetop.png');
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+
+.card-title{
+    margin-top: 15px;
+}
+
+.card-body a{
+    background-color: black;
+    border: none;
+}
+
+.card-body a:hover{
+    background-color: white;
+    border: solid 1px black;
+    color: black;
+}
+
+h5{
+    font-weight: 900;
+}
+
+
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0   ;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    margin-top: 50px;
+    border-top: solid 1px #F3F3F3;
+}
+
+.copyright{
+    display: flex;
+    gap: 30px;
+}
+
+.copyright a{
+    color: #5c5e62;
+    font-size: 12px;
+}
+
+.payment{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-items{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.payment-items img{
+    cursor: pointer;
+}
