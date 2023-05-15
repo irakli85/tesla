@@ -59,7 +59,7 @@ h3{
 
 iframe {
     width: 90%;
-    margin: 200px 20px 20px 20px;
+    margin: 250px 20px 20px 20px;
     border-radius: 25px;
     
 }
@@ -68,11 +68,21 @@ h5{
     font-weight: 900;
 }
 
-.adreses p{
+.text1{
+    margin-top: 20px;
     color: #5c5e62;
     margin-left: 20px;
 }
 
 .adreses a{
-    margin-left: 20px;
+    margin-left: 50px;
+}
+
+.location{
+    margin-right: 5px;
+}
+
+.text2{
+    color: #5c5e62;
+    margin-left: 50px;
 }
