@@ -8,7 +8,7 @@ const tooltips = document.querySelectorAll('.tt')
     //On Top Button
 let mybutton = document.getElementById("btn-back-to-top");
 
-// When the user scrolls down 20px from the top of the document, show the button
+//button appears when scroled down 20px
 window.onscroll = function () {
   scrollFunction();
 };
@@ -23,7 +23,8 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
-// When the user clicks on the button, scroll to the top of the document
+
+//button scrolls up to 0px
 mybutton.addEventListener("click", backToTop);
 
 function backToTop() {
