@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-decoration: none !important;
+}
+
+
+section{
+    padding: 60px 0;
+}
+
+.img-fluid{
+    border-radius: 25px;
+}
+
+.tesla-acord{
+    height: 670px;
+}
+
+#topics{
+    background-image: url(../src/products/prod8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top -250px left 0;    
+}
+
+#intro{
+    background-image: url(../src/cyber4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+
+footer{
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 40px 20px;
+    margin-top: 100px !important;
+    border-top: solid 1px #F3F3F3;
+}
+
+.copyright{
+    display: flex;
+    gap: 30px;
+}
+
+.copyright a{
+    color: #5c5e62;
+    font-size: 12px;
+}
