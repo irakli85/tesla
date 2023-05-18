@@ -1,9 +1,11 @@
+//tooltips
+
 const tooltips = document.querySelectorAll('.tt')
     tooltips.forEach(t => {
       new bootstrap.Tooltip(t)
     })
 
-    //Get the button
+    //On Top Button
 let mybutton = document.getElementById("btn-back-to-top");
 
 // When the user scrolls down 20px from the top of the document, show the button
