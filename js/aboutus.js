@@ -54,17 +54,3 @@ stars.forEach(element => {
 });
 
 
-// const star = stars.forEach
-
-// function starFill(){  
-//     if(arr[el].classList.conttains('bi-star')){
-//       el.classList.remove('bi-star')
-//       el.classList.add('bi-star-fill')
-//     }else{
-//       el.classList.add('bi-star')
-//       el.classList.remove('bi-star-fill')
-//     }
-  
-// }
-
-// element.addEventListener("click", starFill);
