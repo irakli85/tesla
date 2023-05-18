@@ -68,5 +68,8 @@ footer{
     display: none;
   }
 
- 
-
+  .bi-star-fill, 
+  .bi-star-half,
+  .bi-star{
+    cursor: pointer;
+  }

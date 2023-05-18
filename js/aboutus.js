@@ -31,3 +31,40 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+// stars
+const stars = document.querySelectorAll('.bi-star');
+console.log(stars);
+
+
+function handleClick(event) {
+  console.log('Element clicked:', event.target.classList);
+  if(event.target.classList.contains('bi-star')){
+          event.target.classList.remove('bi-star')
+          event.target.classList.add('bi-star-fill')
+        }else{
+          event.target.classList.add('bi-star')
+          event.target.classList.remove('bi-star-fill')
+        }
+}
+
+stars.forEach(element => {
+  element.addEventListener('click', handleClick);
+});
+
+
+// const star = stars.forEach
+
+// function starFill(){  
+//     if(arr[el].classList.conttains('bi-star')){
+//       el.classList.remove('bi-star')
+//       el.classList.add('bi-star-fill')
+//     }else{
+//       el.classList.add('bi-star')
+//       el.classList.remove('bi-star-fill')
+//     }
+  
+// }
+
+// element.addEventListener("click", starFill);
