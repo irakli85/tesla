@@ -54,3 +54,9 @@ footer{
     color: #5c5e62;
     font-size: 12px;
 }
+
+.card:hover{
+    box-shadow: 5px 5px 5px 5px #888888;
+    transition: box-shadow 0.8s ease;
+    cursor: pointer;
+}
