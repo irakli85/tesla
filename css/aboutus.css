@@ -111,7 +111,8 @@ footer{
 }
 
 #buyBtn:hover,
-#buyBtn2:hover{
+#buyBtn2:hover,
+#btn-back-to-top{
     animation: pulse 1s;
     box-shadow: 0 0 0 2rem transparent;
   }
