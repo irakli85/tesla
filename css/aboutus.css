@@ -109,3 +109,14 @@ footer{
 .flipped .flip-card-inner{
     transform: rotateY(180deg);
 }
+
+#buyBtn:hover,
+#buyBtn2:hover{
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2rem transparent;
+  }
+  
+  @keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(0,0,0,.2);
+      filter: hue-rotate(45deg); }
+  }
